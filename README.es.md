@@ -7,7 +7,7 @@ REST API developed with Flask to manage Star Wars data.
 - Database integration
 - RESTful endpoints
 
-Base URL:
+## Base URL
 http://localhost:3000
 
 ## Endpoints
@@ -51,5 +51,6 @@ flask run
 }
 
 
-## Author
+Author
+
 José Daniel Tauil Wozniak
