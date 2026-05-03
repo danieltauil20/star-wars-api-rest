@@ -1,56 +1,35 @@
-# Star Wars REST API
+# Star Wars Blog App
 
-REST API developed with Flask to manage Star Wars data.
+Web application to explore Star Wars content with an interactive frontend.
 
 ## Features
-- CRUD operations (Create, Read, Update, Delete)
-- Database integration
-- RESTful endpoints
-
-## Base URL
-http://localhost:3000
-
-## Endpoints
-
-### Get all characters
-GET /characters
-
-### Get character by ID
-GET /characters/<id>
-
-### Create character
-POST /characters
-
-### Update character
-PUT /characters/<id>
-
-### Delete character
-DELETE /characters/<id>
+- Dynamic rendering of data
+- User interaction
+- API consumption
+- Responsive design
 
 ## Technologies
-- Python
-- Flask
-- SQL
+- JavaScript
+- React
+- HTML
+- CSS
 
 ## How to run
 
 1. Clone the repository:
-git clone https://github.com/danieltauil20/star-wars-api-rest
+```bash
+git clone https://github.com/danieltauil20/star-wars-blog-app
+```
+
 
 2. Install dependencies:
-pip install -r requirements.txt
+```bash
+npm install
+```
 
-3. Run the server:
-flask run
-
-## Example response
-```json
-{
-  "name": "Luke Skywalker",
-  "planet": "Tatooine"
-}
-
-
-Author
-
-José Daniel Tauil Wozniak
+3. Start the app:
+   ```bash
+   npm start
+   ```
+   
+   
